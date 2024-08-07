@@ -1,0 +1,5 @@
+# Code that counts the number of letters in a user's name
+
+namenum = input (" Let's count how many letters are in your name. What is your name? ")
+length = len(namenum)
+print(f"Your name has {length} letters")
