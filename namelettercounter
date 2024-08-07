@@ -2,4 +2,11 @@
 
 namenum = input (" Let's count how many letters are in your name. What is your name? ")
 length = len(namenum)
+
+#count the letters
+i = 1
+while i < length:
+    print(i)
+    i = i + 1
+print(f"Your name has {length} letters")
 print(f"Your name has {length} letters")
